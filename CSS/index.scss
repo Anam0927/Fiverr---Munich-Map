@@ -1,0 +1,26 @@
+@import 'fonts';
+@import 'resets';
+
+$main-color: #58cbbc;
+$text-color: #14423c;
+$highlight-color: #2c9083;
+
+body {
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+svg {
+  width: clamp(50vw, 700px, 80vw);
+}
+
+.cls-1,
+.cls-2,
+.cls-3,
+.cls-4,
+.cls-5 {
+  transition: fill 0.3s ease-in-out;
+}
