@@ -34,6 +34,7 @@ svg {
 .cls-4,
 .cls-5 {
   transition: fill 0.3s ease-in-out;
+  position: relative;
 }
 
 .details {
@@ -114,4 +115,16 @@ button {
   top: 50%;
 
   transform: translateY(-50%);
+}
+
+.tooltip {
+  font-size: 0.65em;
+  background-color: rgba(#fff, 0.75);
+  border: 1px solid $accent-color;
+  padding: 1em;
+
+  position: absolute;
+  display: none;
+
+  pointer-events: none;
 }

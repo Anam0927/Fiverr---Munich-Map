@@ -60,6 +60,7 @@ svg {
 .cls-5 {
   -webkit-transition: fill 0.3s ease-in-out;
   transition: fill 0.3s ease-in-out;
+  position: relative;
 }
 
 .details {
@@ -144,5 +145,15 @@ button:hover {
   top: 50%;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
+}
+
+.tooltip {
+  font-size: 0.65em;
+  background-color: rgba(255, 255, 255, 0.75);
+  border: 1px solid #b4b5ba;
+  padding: 1em;
+  position: absolute;
+  display: none;
+  pointer-events: none;
 }
 /*# sourceMappingURL=index.css.map */
